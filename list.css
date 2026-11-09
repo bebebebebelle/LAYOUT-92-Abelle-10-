@@ -1,0 +1,115 @@
+.fruit-section,
+.lorem-section,
+.icon-section {
+    margin: 16px 5px;
+    padding: 10px 13px 16px;
+}
+
+.fruit-section h3,
+.lorem-section h3,
+.icon-section h3 {
+    margin: 0 0 16px;
+    color: #29324a;
+}
+
+.fruit-list {
+    margin: 0;
+    padding: 8px;
+    border: 3px solid #ffffff;
+    border-radius: 14px;
+    background-color: #ffffff;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+.fruit-list li,
+.lorem-list li,
+.icon-list li {
+    margin: 0 0 4px;
+    padding: 6px 7px;
+    border-bottom: 1px solid #ffffff;
+    color: #29324a;
+    transition: background-color 160ms ease, color 160ms ease;
+}
+
+.fruit-list li:last-child,
+.lorem-list li:last-child,
+.icon-list li:last-child {
+    margin-bottom: 0;
+}
+
+.fruit-list li:nth-child(6n + 1),
+.lorem-list li:nth-child(6n + 1),
+.icon-list li:nth-child(6n + 1) {
+    background-color: #ff9a9e;
+}
+
+.fruit-list li:nth-child(6n + 2),
+.lorem-list li:nth-child(6n + 2),
+.icon-list li:nth-child(6n + 2) {
+    background-color: #ffcba4;
+}
+
+.fruit-list li:nth-child(6n + 3),
+.lorem-list li:nth-child(6n + 3),
+.icon-list li:nth-child(6n + 3) {
+    background-color: #ffe66d;
+}
+
+.fruit-list li:nth-child(6n + 4),
+.lorem-list li:nth-child(6n + 4),
+.icon-list li:nth-child(6n + 4) {
+    background-color: #a8e6cf;
+}
+
+.fruit-list li:nth-child(6n + 5),
+.lorem-list li:nth-child(6n + 5),
+.icon-list li:nth-child(6n + 5) {
+    background-color: #9ad0f5;
+}
+
+.fruit-list li:nth-child(6n),
+.lorem-list li:nth-child(6n),
+.icon-list li:nth-child(6n) {
+    background-color: #cdb4db;
+}
+
+.fruit-list li.featured-fruit {
+    background-color: #e0a51c;
+}
+
+.lorem-list {
+    margin: 0;
+    padding: 8px;
+    border: 3px solid #ffffff;
+    border-radius: 14px;
+    background-color: #ffffff;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.icon-list {
+    margin: 0;
+    padding: 8px;
+    border: 3px solid #ffffff;
+    border-radius: 14px;
+    background-color: #ffffff;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.fruit-list li:hover,
+.lorem-list li:hover,
+.icon-list li:hover {
+    background-color: #ff6b6b;
+    color: #ffffff;
+}
+
+.icon-list svg {
+    display: inline-block;
+    width: 1.2em;
+    height: 1em;
+    margin-right: 3px;
+    fill: currentColor;
+    vertical-align: -0.125em;
+}
